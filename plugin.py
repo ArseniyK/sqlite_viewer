@@ -64,7 +64,6 @@ class SqliteViewer:
     def create_collumns(self, column_names):
         rendererText = gtk.CellRendererText()
         for index, name in enumerate(column_names):
-            print name,id
             column = gtk.TreeViewColumn(name, rendererText, text=index)
             column.set_sort_column_id(1)
             self.table.append_column(column)
