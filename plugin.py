@@ -70,7 +70,7 @@ class SqliteViewer:
 
     def get_title(self):
         """Return page title"""
-        return 'SqliteViewer'
+        return 'SQLite Viewer'
 
     def get_container(self):
         """Return container widget to be embeded to notebook"""
